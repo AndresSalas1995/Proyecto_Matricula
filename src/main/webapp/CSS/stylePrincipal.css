@@ -1,0 +1,199 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color:darkcyan;
+    height:20%;
+    width: 100%;
+    border-bottom:7px solid darkorange;
+    box-shadow:0px 0px 10px black;
+    overflow:hidden;
+}
+
+.logo-header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    width:8%;
+    height:80%;
+    border-radius:100%;
+    position:relative;
+    top:35px;
+    left:15px;
+    float:left;
+    cursor: pointer;
+}
+
+.nombre-universidad {
+    width:50%;
+    position:relative;
+    float:none;
+    float:left;
+    left:35px;
+    font-size:35px;
+    color:white;
+}
+
+.img-menu{
+    width:80px;
+    filter:invert(100%);
+    position:absolute;
+    right:52px;
+    top:70px;
+    border-radius:100%;
+    cursor: pointer;
+
+}
+
+.menu{
+    position: relative;
+    top: 25%;
+    left: 80%;
+    width: 15%;
+    height: 70%;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow:2px 3px 7px black;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px; 
+    display: none;
+}
+
+.img-logo {
+    width:160%;
+
+}
+
+.inp-busqueda {
+    position: absolute;
+    top:130px;
+    right:250px;
+    width:400px;
+    border-radius:40px;
+    font-size:20px;
+    border:none;
+    box-shadow:2px 3px 7px black;
+}
+
+.info-1{
+    width:100%;
+    position:relative;
+    margin: 75px 0px 75px 0px; 
+}
+
+
+.img-ifo-1 {
+    position: relative;
+    width:50%;
+    right: 38%;
+    border-radius:40px;
+    box-shadow:2px 3px 7px black;
+}
+
+.text-info-1 {
+    position:relative;
+    float:left;
+    left:55%;
+    top: 30px;
+    font-size:20px;
+    color:black;
+    width:40%;
+}
+
+.info-2 {
+    width:100%;
+    position:relative;
+    margin: 75px 0px 75px 0px;
+}
+
+.img-ifo-2{
+    position: relative;
+    width:50%;
+    left: 8%;
+    border-radius:40px;
+    box-shadow:2px 3px 7px black;
+}
+
+.text-info-2 {
+    position:relative;
+    float:left;
+    left:5%;
+    top: 50px;
+    text-height: initial;
+    font-size:20px;
+    color:black;
+    width:40%;
+}
+
+.info-3{
+    width:100%;
+    position:relative;
+    margin: 75px 0px 75px 0px;
+}
+
+.img-ifo-3 {
+    position: relative;
+    width:50%;
+    right: 38%;
+    border-radius:40px;
+    box-shadow:2px 3px 7px black;
+}
+
+.text-info-3 {
+    position:relative;
+    float:left;
+    left:55%;
+    top: 30px;
+    font-size:20px;
+    color:black;
+    width:40%;
+}
+
+.info-4{
+    width:100%;
+    position:relative;
+    margin: 75px 0px 75px 0px;
+}
+
+.img-ifo-4 {
+    position: relative;
+    width:50%;
+    left: 8%;
+    border-radius:40px;
+    box-shadow:2px 3px 7px black;
+}
+
+.text-info-4 {
+    position:relative;
+    float:left;
+    left:5%;
+    top: 70px;
+    text-height: initial;
+    font-size:20px;
+    color:black;
+    width:40%;
+}
+
+.pie-pagina {
+    background-color: darkcyan;
+    border-top: 7px solid darkorange;
+    margin:0%;
+    height:45%;
+}
+
+.etiquetas{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+}

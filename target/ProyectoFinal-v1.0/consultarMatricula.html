@@ -1,0 +1,80 @@
+
+<html>
+    <head>
+        <title>Sistema Universitario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/estilosGlobales.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/stylePrincipal.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+
+        <div class="container mt-5">
+            <div class="row animate__animated animate__fadeIn">
+                <h1>Consultar Matricula</h1>
+            </div>
+
+        </div>
+        <div class="container">
+            <form class="animate__animated animate__fadeIn" id="frmConsultaMatricula" name="frmConsultaMatricula">
+
+                <div class="mb-3">
+                    <label for="carrera" class="form-label">Seleccionar Matricula</label>
+                    <select class="form-control" name="matricula" id="matricula">
+                        <!--<option value="">Seleccione una opción</option>-->
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="carrera" class="form-label">Carrera</label>
+                    <input type="text" disabled class="form-control" id="carrera" name="carrera" placeholder=0>
+                </div>
+                
+                
+<!--                <div class="mb-3">
+                    <label for="curso" class="form-label">Agregar Curso</label>
+                    <select class="form-control" name="curso" id="curso">
+                        <option value="">Seleccione una opción</option>
+                    </select>
+                    <button type="button" class="btn btn-primary" id="btnAgregarCurso" name="btnAgregarCurso">Agregar Curso</button>
+                    <button type="button" class="btn btn-primary" id="btnRemoverCurso" name="btnRemoverCurso">Remover Curso</button>
+                </div>-->
+                <div class="mb-3">
+                    <label class="form-label">Cursos agregados</label>
+                    <ul class="form-control" id="cursosAgregados">
+                        <!--<li>Programacion 1</li>-->
+                    </ul>
+                </div>
+                
+                
+                
+                <div class="mb-3">
+                    <label for="subtotal" class="form-label">Subtotal</label>
+                    <input type="text" disabled class="form-control" id="subtotal" name="subtotal" placeholder=0>
+                </div>
+                <div class="mb-3">
+                    <label for="iva" class="form-label">IVA</label>
+                    <input type="text" disabled class="form-control" id="iva" name="iva" placeholder=0>
+                </div>
+                <div class="mb-3">
+                    <label for="total" class="form-label">Total</label>
+                    <input type="text" disabled class="form-control" id="total" name="total" placeholder=0>
+                </div>
+            </form>
+            
+            <div>
+                <button class="buttom-envio"><a href="principal.html">Menu Principal</a></button>     
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+        <script src="javascript/api.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
+        <script src="javascript/consultarMatricula/construirEtiquetas.js"></script>
+        <script src="javascript/consultarMatricula/consultarMatricula.js"></script>
+        
+    </body>
+</html>

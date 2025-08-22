@@ -1,0 +1,93 @@
+body{
+    margin: 0PX;
+
+}
+
+img{
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+.box-inicio {
+    /*Las primeras 3 lineas son para centrar un DIV en la pagina*/
+    display: block;
+    place-items: center;
+    margin: auto;
+    width: 40%;
+    overflow:auto ;
+    border-radius: 50px;
+    margin-top: 10%;
+    text-align: center;
+    background: white;
+    position:absolute;
+    left: 32%;
+    top:15px;
+    box-shadow: 5px 5px 25px black;
+}
+.titulo-registro {
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria;
+    color: darkorange;
+
+}
+
+.form-inicio1 {
+    font-size: 25px;
+    position: relative;
+    width: 75%;
+    margin:0px auto;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+.form-inicio2 {
+    font-size: 25px;
+    position: relative;
+    width: 75%;
+    margin:0px auto;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+input{
+    border:none;
+    outline: none;
+    border-bottom: 2px solid;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.buttom-envio {
+    background: darkcyan;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 7PX;
+    font-size: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+.logo{
+    position:absolute;
+    left: 32%;
+    top:15px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+}
+
+

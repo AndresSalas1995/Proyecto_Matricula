@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio de sesión</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="CSS/style.css"/>
+    </head>
+    <body>
+        <div></div>
+        <div class="img">
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="alt"/>
+        </div>
+        <div class="box-inicio"> 
+            <form id="frmLogin" name="frmLogin">
+                <h1 class="titulo-registro">!Bienvenid@¡</h1>
+                <div class="form-inicio1">
+                    <label>Usuario</label>
+                    <br>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                </div>
+                <br>
+                <div class="form-inicio2">
+                    <label>Contraseña</label>
+                    <br>
+                    <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
+                </div>
+                <div>
+                    <button type="button" class="buttom-envio btn btn-primary" id="btnLogin" name="btnLogin">Login</button>
+                </div>
+            </form>
+            
+            <div >
+                <button class="buttom-envio"><a href="registroUsuario.html">Registrar Usuario</a></button>     
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+        <script src="javascript/api.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
+        <script src="javascript/jqueryValidate/mensajes.js"></script>
+        <script src="javascript/login/index.js"></script>
+        
+    </body>
+</html>

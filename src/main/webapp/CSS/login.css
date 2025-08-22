@@ -1,0 +1,40 @@
+
+.titulo{
+    border: 1px solid;
+    text-align: center;
+    width: 150px;
+}
+
+.formulario-box{
+    border: 1px solid;
+    height: 550px;
+    margin-top: 10px;
+}
+
+.footer-box{
+    border: 1px solid;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.input-box{
+    border: 1px solid;
+    margin: 15px;
+    padding: 10px;
+}
+
+.boton-box{
+    border: 1px solid;
+    
+}
+
+.boton-box{
+    margin: 15px;
+    padding: 20px;
+}
+
+.btn{
+    width: 65px;
+    background-color: chocolate;
+    cursor: pointer;
+}
